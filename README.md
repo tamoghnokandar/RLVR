@@ -1,5 +1,7 @@
 # Reinforcement Learning from Verifiable Rewards
-In this project, I finetune Qwen3-1.7B model using the Group Relative Policy Optimization (GRPO) algorithm. I also use LORA for finetuning. Both the installation and training are done in one script.
+In this project, I finetune Qwen3-1.7B model using the Group Relative Policy Optimization (GRPO) algorithm. I also use LORA for finetuning. The dataset was taken from [dataset](https://huggingface.co/datasets/tm21cy/NYT-Connections)
+
+ Both the installation and training are done in one script.
 ## Training
 ```bash
 bash train.sh
