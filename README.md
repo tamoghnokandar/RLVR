@@ -12,5 +12,5 @@ python3 post_train_merge.py
 Now, we can evaluate the model on the test set.
 ## Evaluation
 ```bash
-bash eval_grpo.sh
+bash eval.sh
 ```
